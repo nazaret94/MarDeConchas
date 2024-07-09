@@ -70,6 +70,9 @@ header:hover{
         width: 100%;
         border-radius: 15px;
     }
+    img:hover{
+       animation: zoom 3s forwards; 
+    }
     .descripcion{
     padding: 4px;
     text-align: center;
@@ -83,7 +86,18 @@ header:hover{
         }
     }
 }
+ @keyframes zoom {
+    0%{
+        width:100%;
+    }
+    100%{
+       transform: scale(120%) ;
+       transform: translateX(-15%);
+       width: 150%;
+    }
+ }
 
+ }
 footer{
     
     padding: 15px;
@@ -95,6 +109,17 @@ footer{
     #titulo{
         font-size: 25px;
     }
+    
+    header:hover{
+    #titulo{
+        font-size: 30px;
+        color: #AE7D18;
+    }
+    #subtitulo{
+        color: black;
+    }
+  
+}
     #subtitulo{
         font-size: 20px;
     }
