@@ -175,4 +175,7 @@ header:hover #subtitulo{
         font-size: 10px;
 
     }
+    #menu a::before, nav a::after {
+        font-size: 10px;
+    }
 }
