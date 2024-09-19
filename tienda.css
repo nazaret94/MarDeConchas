@@ -19,7 +19,7 @@ header{
     transition-timing-function: ease-in-out;
     display:block;
     text-align: center; 
-    background-image: url(img/fondo/conchas.jpg);
+    background-image: url(/MarDeConchas/img/fondo/conchas.jpg);
     background-size: 150%;
     padding-top: 15px;
     height: 20%;  
